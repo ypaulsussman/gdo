@@ -1,0 +1,20 @@
+{
+  "name": "gdo",
+  "version": "1.0.0",
+  "description": "A tool to close/tighten feedback loops on what I read, think, and do.",
+  "scripts": {
+    "build": "eleventy",
+    "debug": "DEBUG=* eleventy",
+    "start": "eleventy --serve"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Y Sussman",
+    "email": "ypaulsussman@gmail.com",
+    "url": "https://suss.world/"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  }
+}
