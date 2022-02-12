@@ -19,6 +19,16 @@ module.exports = (config) => {
       .sort((a, b) => (new Date(a.data.date) < new Date(b.data.date) ? 1 : -1));
   });
 
+
+  config.addCollection("tagList", function(collection) {
+    let tagSet = new Set();
+    collection.getAll().forEach(item => {
+      (item.data.tags || []).forEach(tag => tagSet.add(tag));
+    });
+
+    return [...tagSet];
+  });
+
   return {
     markdownTemplateEngine: "njk",
     dataTemplateEngine: "njk",

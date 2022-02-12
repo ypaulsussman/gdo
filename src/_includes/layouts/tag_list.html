@@ -1,0 +1,17 @@
+{% extends "layouts/base.html" %} 
+
+
+{% block content %}
+<h1>Tags</h1>
+
+  <div>
+    <ul>
+      {% for tag in collections.tagList %}
+      <li>
+        {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+        <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endblock %}
