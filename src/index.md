@@ -8,8 +8,8 @@ permalink: '/'
 
 This is pretty _**rad**_, right?!
 
-* [WIR goes here](what-i-read);
-* [WIT goes here](what-i-think);
-* [WID goes here](what-i-do)
+* [WIR goes here](wir);
+* [WIT goes here](wit);
+* [WID goes here](wid)
 
 ..._and then_ `tags` _link goes here._
