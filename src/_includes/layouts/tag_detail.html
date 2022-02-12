@@ -7,12 +7,11 @@
 
   <div>
     <ul>
-      {% for item in pagination.items | reverse %}
+      {% for item in collections[tag] | reverse %}
       <li>
         <a href="{{ item.url }}">{{ item.data.title }}</a>
       </li>
       {% endfor %}
     </ul>
   </div>
-  {% include "partials/pagination.html" %}
 {% endblock %}

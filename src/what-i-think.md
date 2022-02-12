@@ -3,7 +3,7 @@ title: "What I Think"
 layout: 'layouts/content_list.html'
 pagination:
   data: collections.whatIThink
-  size: 3
+  size: 12
 permalink: 'wit{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber }}{% endif %}/'
 ---
 

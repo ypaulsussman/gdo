@@ -3,7 +3,7 @@ title: "What I Do"
 layout: 'layouts/content_list.html'
 pagination:
   data: collections.whatIDo
-  size: 3
+  size: 12
 permalink: 'wid{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber }}{% endif %}/'
 ---
 
