@@ -1,7 +1,6 @@
 ---
 title: "What I Read"
 layout: 'layouts/content_list.html'
-collection_lookup: "whatIRead"
 pagination:
   data: collections.whatIRead
   size: 3

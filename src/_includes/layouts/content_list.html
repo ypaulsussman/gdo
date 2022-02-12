@@ -1,8 +1,11 @@
-<h1>{{title}}</h1>
+{% extends "layouts/base.html" %} 
 
-{{ content | safe }}
 
 {% block content %}
+  <h1>{{title}}</h1>
+
+  {{ content | safe }}
+
   <div>
     <ul>
       {% for item in pagination.items %}

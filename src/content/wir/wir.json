@@ -1,0 +1,4 @@
+{
+  "layout": "layouts/content_detail.html",
+  "permalink": "/wir/{{ title | slug }}/index.html"
+}

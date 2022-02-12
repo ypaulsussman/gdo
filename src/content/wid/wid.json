@@ -1,0 +1,4 @@
+{
+  "layout": "layouts/content_detail.html",
+  "permalink": "/wid/{{ title | slug }}/index.html"
+}

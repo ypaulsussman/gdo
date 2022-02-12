@@ -1,7 +1,6 @@
 ---
 title: "What I Do"
 layout: 'layouts/content_list.html'
-collection_lookup: "whatIDo"
 pagination:
   data: collections.whatIDo
   size: 3
