@@ -12,4 +12,4 @@ This is pretty _**rad**_, right?!
 * [WIT goes here](wit);
 * [WID goes here](wid)
 
-..._and then_ `tags` _link goes here._
+..._or go look at [tags](tags)._
