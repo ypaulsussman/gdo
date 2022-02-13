@@ -1,4 +1,82 @@
 {
   "layout": "layouts/content_detail.html",
-  "permalink": "/wid/{{ title | slug }}/index.html"
+  "permalink": "/wid/{{ title | slug }}/index.html",
+  "content_template": {
+    "front_matter": "---\ntitle: 'goes here'\ndate: 'YYYY-MM-DD'\ntags: ['go', 'here', 'comma-delimited']\neleventyExcludeFromCollections: true\n# Delete the above key from new pages' FM when complete\n---",
+    "techrepublic_adapted": {
+      "Are you proud of the project?": [
+        "If 'yes,' what's good about it? If 'no,' what's wrong with it? Be specific."
+      ],
+      "List the three things that most frustrated you about this project.": [
+        "What could we do in the future to avoid this frustration?"
+      ],
+      "What was the most satisfying part of this project?": [
+        "What could we do in the future to replicate this satisfaction?"
+      ],
+      "If you could change anything about this project, what would it be?": [
+        "How would you change it, and why?"
+      ],
+      "Did you see any early warning signs that resulted in problems in the project?": [
+        "Please describe the signs you saw. What could we do in the future to better react to those signs?"
+      ],
+      "Were there things that you did that you thought were not your responsibility?": [
+        "What were they?"
+      ]
+    },
+    "asana": {
+      "Project planning": [
+        "The project plan included the correct level of detail. I had everything I needed to understand what the project was about. ",
+        "The project plan clearly explained the purpose of the project. ",
+        "The project's scope was well defined. ",
+        "The project schedule was clear and easy to follow. ",
+        "The project communication plan clearly defined how and where I should communicate about project work. ",
+        "The project plan was shared with all stakeholders and easy to find. ",
+        "As a stakeholder, I'm happy with my level of involvement in the project planning process."
+      ],
+      "Project execution": [
+        "I understood everyone's responsibilities during the project lifecycle. ",
+        "Project stakeholders were engaged and effectively involved in the project work. ",
+        "The project environment was collaborative. ",
+        "The project manager was available and responsive. ",
+        "Project changes were manageable and fit within the project scope. ",
+        "The initial project schedule, documented in the project plan, closely matched the actual project schedule. ",
+        "The project outcome matched what was defined in the original project charter. ",
+        "The project team had a shared understanding of their goals and individual responsibilities. "
+      ],
+      "Outcome": [
+        "The project was realistic and achievable. ",
+        "Assignments were clearly defined throughout the project lifecycle. ",
+        "The project had strong performance metrics to help define success. ",
+        "I believe we hit the project goal. ",
+        "My involvement in the project—including workload, time, and effort—met my expectations. "
+      ]
+    },
+    "shopify": {
+      "Basics": [
+        "What went right during the project that we can repeat in the future?",
+        "What went wrong during the project that we should avoid in the future?",
+        "What should we do differently next time?"
+      ],
+      "Agency-client communication": [
+        "Were communications handled in an efficient and effective manner?",
+        "Were updates/changes transparent to all stakeholders?",
+        "What were the major barriers of communication between the client and agency?"
+      ],
+      "Project management": [
+        "Were the goals of the project clear to all stakeholders?",
+        "Was the schedule realistic and/or detailed enough?",
+        "What unexpected obstacles arose that affected the ability to meet milestones?"
+      ],
+      "Information management": [
+        "Was the initial brief detailed enough to facilitate project work?",
+        "What additional information would have facilitated the project workflow?",
+        "What could be done in the future to increase the access to necessary information?"
+      ],
+      "Issue management": [
+        "Did issues/changes in scope arise that affected the delivery of the project?",
+        "Were issues/changes in scope handled in an effective manner?",
+        "What would you do next time to make issue management more effective?"
+      ]
+    }
+  }
 }

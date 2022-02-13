@@ -1,4 +1,57 @@
 {
   "layout": "layouts/content_detail.html",
-  "permalink": "/wir/{{ title | slug }}/index.html"
+  "permalink": "/wir/{{ title | slug }}/index.html",
+  "content_template": {
+    "front_matter": "---\ntitle: 'goes here'\ndate: 'YYYY-MM-DD'\ntags: ['go', 'here', 'comma-delimited']\neleventyExcludeFromCollections: true\n# Delete the above key from new pages' FM when complete\n---",
+    "sq3r": {
+      "Survey": {
+        "What": "Get oriented to the text, to see how it fits into the bigger picture, and connects to what you already know.",
+        "How": [
+          "Who wrote it and when?",
+          "What type of text is it (academic scholarship, public scholarship, fiction, autobiography, review, analysis)?",
+          "How does the text relate to course content? ",
+          "What is your purpose in reading it? What you need to learn from the text and why?",
+          "Read the title.",
+          "Read any introduction material and/or summary, including author bio or abstract.",
+          "Note section headings and subheadings, as well as, boldfaced words.",
+          "Skim over graphs, tables, charts, etc. to see how they support and explain the text.",
+          "Set a realistic goal for how much/how long you will read."
+        ]
+      },
+      "Question": {
+        "What": "The best way to read actively is to pose questions in advance and read to answer those questions.",
+        "How": [
+          "Frame headings, subheadings, or topic sentences into questions",
+          "Utilize questions at the end of the section/chapter",
+          "Use a heuristic: Who? What? When? Where? How? Why does this matter?"
+        ]
+      },
+      "Read": {
+        "What": "Begin reading with the goal of answering your questions.",
+        "How": [
+          "Try to locate the answers to the questions you posed in your survey of the text.",
+          "Use underlining, highlighting and/or annotating to note main ideas, important points, connections to other texts/ideas, and to note questions that arise.",
+          "Think, interpret, and analyze the first time you read, to avoid unnecessary re-reading. ",
+          "Take breaks when you need to."
+        ]
+      },
+      "Recite": {
+        "What": "After reading a section, recite the answers to the questions you posed, as well as important points and main ideas.",
+        "How": [
+          "Verbalize important points, ideas or passages in your own words.",
+          "Without looking at the text, recall your questions and see if you can answer from your memory of the text. ",
+          "Write a brief summary, short notes, flash cards, or outlines of what you just read. Be brief, to avoid losing reading momentum."
+        ]
+      },
+      "Review": {
+        "What": "Do this both for retrieval strength and percolation effects.",
+        "How": [
+          "Look over the text, your notes, markings and annotations.",
+          "Quiz yourself by answering the questions you posed in the prior to Reading.",
+          "Note connections between the reading you just did and ideas and concepts from other readings, class lectures and/or discussions.  ",
+          "Repeat this process weekly to build your memory."
+        ]
+      }
+    }
+  }
 }
