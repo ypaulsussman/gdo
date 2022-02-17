@@ -1,4 +1,40 @@
-/* @TODO: replace with actual styles */
-h1, p {
-  color: grey;
+:root {
+  --ghost-white-complementary: #f2f1e6;
+  --light-gray: #cecece;
+  --maximum-yellow-red: #e9b44c;
+  --rufous: #9b2915;
+  --ua-red: #e01a4f;
+  --quick-silver: #a6a6a8;
+  --raisin-black: #272635;
+  --smoky-black: #1c110a;
+  --non-photo-blue: #b1e5f2;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html, body {
+  /* Allow percentage-based heights in the application */
+  height: 100%;
+}
+
+body {
+  background-color: var(--ghost-white-complementary);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+  color: var(--smoky-black);
 }
