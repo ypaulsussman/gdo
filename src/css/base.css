@@ -10,7 +10,9 @@
   --non-photo-blue: #b1e5f2;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -18,7 +20,8 @@
   margin: 0;
 }
 
-html, body {
+html,
+body {
   /* Allow percentage-based heights in the application */
   height: 100%;
 }
@@ -26,15 +29,25 @@ html, body {
 body {
   background-color: var(--ghost-white-complementary);
   line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
 }
 
-img, picture, video, canvas, svg {
+img,
+picture,
+video,
+canvas,
+svg {
   display: block;
   max-width: 100%;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
-  overflow-wrap: break-word;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: var(--smoky-black);
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
