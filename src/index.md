@@ -2,17 +2,24 @@
 title: "Garage Door's Open"
 layout: 'layouts/home.html'
 permalink: '/'
+content_descriptors:
+  - wir:
+    url: '/wir'
+    data:
+      title: "What I Read"
+      description: "Reflections on media that I consume."
+  - wid:
+    url: '/wid'
+    data:
+      title: "What I Do"
+      description: "Reflections on projects that I undertake."
+  - wit:
+    url: '/wit'
+    data:
+      title: "What I Think"
+      description: "Reflections on ideas that I have."
 ---
 
-<!-- @TODO: add "what/who/why is this" text as keys in FM, above -->
-
-This is pretty _**rad**_, right?!
-
-<!-- @TODO: replace these w/ nested FM data (e.g. work_category.name, work_category.description);
-            feed them to the content_card.html partial -->
-
-* [WIR goes here](wir);
-* [WIT goes here](wit);
-* [WID goes here](wid)
+<!-- @TODO: above, add "what/who/why is this" text as keys in FM (?) -->
 
 ..._or go look at [tags](tags)._

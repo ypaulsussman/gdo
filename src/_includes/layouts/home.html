@@ -1,10 +1,17 @@
 {% extends "layouts/base.html" %} 
+
 {% block content %}
 
-<h1>
-  {{ title }}
-</h1>
+  <h1>
+    {{ title }}
+  </h1>
 
-{{ content | safe }}
+  <div class="card-container">
+    {% for item in content_descriptors %}
+      {% include "partials/content_card.html" %}
+    {% endfor %}
+  </div>
+
+  {{ content | safe }}
 
 {% endblock %}

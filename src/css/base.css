@@ -1,20 +1,17 @@
 @import 'content_card.css';
 
 :root {
+  /* --smoky-black: #1c110a; */
   --raisin-black: #272635;
-  --smoky-black: #1c110a;
-  /* --ghost-white: #e8e9f3ff; */
+  /* --quick-silver: #a6a6a8;
+  --light-gray: #cecece; */
   --ghost-white-complementary: #f2f1e6;
-  --light-gray: #cecece;
-  --quick-silver: #a6a6a8;
   --msu-green: #243e36ff;
   --gold-metallic: #c2a83eff;
   --maximum-yellow-red: #e9b44c;
-  --rufous: #9b2915;
   --russet: #7b3e19ff;
+  --rufous: #9b2915;
   /* --ua-red: #e01a4f; */
-  /* --non-photo-blue: #b1e5f2; */
-  /* --queen-pink: #dabecaff; */
 }
 
 *,

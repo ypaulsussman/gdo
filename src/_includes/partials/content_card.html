@@ -2,6 +2,8 @@
   <h2>
     <a href="{{ item.url }}">{{ item.data.title }}</a>
   </h2>
-  <p>{{ item.data.date }}</p>
-  <p>{{ item.data.description }}</p>
+  {% if item.data.date %}
+    <p>{{ item.data.date }}</p>
+  {% endif %}
+  <p class="description">{{ item.data.description }}</p>
 </div>
