@@ -5,14 +5,10 @@
 
   {{ content | safe }}
 
-  <div>
-    <ul>
-      {% for item in pagination.items | reverse %}
-      <li>
-        <a href="{{ item.url }}">{{ item.data.title }}</a>
-      </li>
-      {% endfor %}
-    </ul>
+  <div class="card-container">
+    {% for item in pagination.items | reverse %}
+      {% include "partials/content_card.html" %}
+    {% endfor %}
   </div>
   {% include "partials/pagination.html" %}
 {% endblock %}

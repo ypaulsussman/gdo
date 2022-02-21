@@ -1,13 +1,20 @@
+@import 'content_card.css';
+
 :root {
-  --ghost-white-complementary: #f2f1e6;
-  --light-gray: #cecece;
-  --maximum-yellow-red: #e9b44c;
-  --rufous: #9b2915;
-  --ua-red: #e01a4f;
-  --quick-silver: #a6a6a8;
   --raisin-black: #272635;
   --smoky-black: #1c110a;
-  --non-photo-blue: #b1e5f2;
+  /* --ghost-white: #e8e9f3ff; */
+  --ghost-white-complementary: #f2f1e6;
+  --light-gray: #cecece;
+  --quick-silver: #a6a6a8;
+  --msu-green: #243e36ff;
+  --gold-metallic: #c2a83eff;
+  --maximum-yellow-red: #e9b44c;
+  --rufous: #9b2915;
+  --russet: #7b3e19ff;
+  /* --ua-red: #e01a4f; */
+  /* --non-photo-blue: #b1e5f2; */
+  /* --queen-pink: #dabecaff; */
 }
 
 *,
@@ -23,6 +30,7 @@
 html,
 body {
   /* Allow percentage-based heights in the application */
+  /* @TODO: necessary? */
   height: 100%;
 }
 
@@ -46,8 +54,26 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  color: var(--smoky-black);
+h6,
+li {
+  color: var(--raisin-black);
   overflow-wrap: break-word;
   hyphens: auto;
 }
+
+a {
+  color: var(--msu-green);
+}
+
+a:visited {
+  color: var(--rufous);
+}
+
+a:hover {
+  color: var(--gold-metallic);
+}
+
+a:active {
+  color: var(--maximum-yellow-red);
+}
+

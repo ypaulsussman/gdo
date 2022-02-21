@@ -5,13 +5,9 @@
 
   {{ content | safe }}
 
-  <div>
-    <ul>
-      {% for item in collections[tag] | reverse %}
-      <li>
-        <a href="{{ item.url }}">{{ item.data.title }}</a>
-      </li>
-      {% endfor %}
-    </ul>
+  <div class="card-container">
+    {% for item in collections[tag] | reverse %}
+      {% include "partials/content_card.html" %}
+    {% endfor %}
   </div>
 {% endblock %}

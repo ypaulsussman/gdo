@@ -8,6 +8,9 @@ permalink: '/'
 
 This is pretty _**rad**_, right?!
 
+<!-- @TODO: replace these w/ nested FM data (e.g. work_category.name, work_category.description);
+            feed them to the content_card.html partial -->
+
 * [WIR goes here](wir);
 * [WIT goes here](wit);
 * [WID goes here](wid)
