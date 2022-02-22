@@ -1,9 +1,11 @@
 <div class="card">
-  <h2>
+  <h2 class="{{ item.page_style }}">
     <a href="{{ item.url }}">{{ item.data.title }}</a>
   </h2>
+
   {% if item.data.date %}
-    <p>{{ item.data.date }}</p>
+    <time datetime="{{ item.data.date }}">{{ item.data.date }}</time>
   {% endif %}
-  <p class="description">{{ item.data.description }}</p>
+  
+  <p class="description {{ item.page_style }}">{{ item.data.description | striptags(true) | escape | nl2br }}</p>
 </div>

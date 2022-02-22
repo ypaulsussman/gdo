@@ -5,19 +5,22 @@ permalink: '/'
 content_descriptors:
   - wir:
     url: '/wir'
+    page_style: "categories"
     data:
       title: "What I Read"
-      description: "Reflections on media that I consume."
-  - wid:
-    url: '/wid'
-    data:
-      title: "What I Do"
-      description: "Reflections on projects that I undertake."
+      description: "Reflections on media I consume."
   - wit:
     url: '/wit'
+    page_style: "categories"
     data:
       title: "What I Think"
-      description: "Reflections on ideas that I have."
+      description: "Reflections on ideas I have."
+  - wid:
+    url: '/wid'
+    page_style: "categories"
+    data:
+      title: "What I Do"
+      description: "Reflections on projects I undertake."
 ---
 
 <!-- @TODO: above, add "what/who/why is this" text as keys in FM (?) -->

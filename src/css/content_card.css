@@ -38,6 +38,16 @@
     0 41.8px 33.4px rgba(28, 17, 10, 0.086), 0 100px 80px rgba(28, 17, 10, 0.12);
 }
 
+.card h2 {
+  margin-bottom: .5rem;
+}
+
+.card h2.categories {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
 .card h2 a::after {
   content: "";
   position: absolute;
@@ -47,6 +57,17 @@
   height: 100%;
 }
 
+.card time {
+  color: var(--quick-silver);
+  font-style: italic;
+  margin-bottom: .5rem;
+}
+
 .card .description {
   overflow: hidden;
+}
+
+.card .description.categories {
+  text-align: center;
+  padding: 0 1.5rem;
 }
