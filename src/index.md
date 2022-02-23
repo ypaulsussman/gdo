@@ -8,21 +8,22 @@ content_descriptors:
     page_style: "categories"
     data:
       title: "What I Read"
-      description: "Reflections on media I consume."
+      subhead: "(AKA 'Conversations with Mortimer')"
+      description: "For reflecting on media I consume."
   - wit:
     url: '/wit'
     page_style: "categories"
     data:
       title: "What I Think"
-      description: "Reflections on ideas I have."
+      subhead: "(AKA 'Ruminations on a Mokko')"
+      description: "For reflecting on ideas I encounter, or generate."
   - wid:
     url: '/wid'
     page_style: "categories"
     data:
       title: "What I Do"
-      description: "Reflections on projects I undertake."
+      subhead: "(AKA 'Another CRUD Bites the Dust')"
+      description: "Where I reflect on projects I undertake, technological or otherwise."
 ---
-
-<!-- @TODO: above, add "what/who/why is this" text as keys in FM (?) -->
 
 ..._or go look at [tags](tags)._

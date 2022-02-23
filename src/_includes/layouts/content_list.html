@@ -7,6 +7,7 @@
 
   <div class="card-container">
     {% for item in pagination.items | reverse %}
+      {% set subheading = item.data.date%}
       {% include "partials/content_card.html" %}
     {% endfor %}
   </div>

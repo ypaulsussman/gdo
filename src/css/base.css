@@ -60,6 +60,7 @@ li {
 
 a {
   color: var(--msu-green);
+  text-decoration: none;
 }
 
 a:visited {
