@@ -1,4 +1,4 @@
-@import 'content_card.css';
+@import "content_card.css";
 
 :root {
   /* --smoky-black: #1c110a; */
@@ -60,18 +60,47 @@ li {
 
 a {
   color: var(--msu-green);
-  text-decoration: none;
 }
 
 a:visited {
-  color: var(--rufous);
+  color: var(--gold-metallic);
 }
 
 a:hover {
-  color: var(--gold-metallic);
+  color: var(--rufous);
 }
 
 a:active {
   color: var(--maximum-yellow-red);
 }
 
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+/* Below from https://stackoverflow.com/a/48226415 */
+main {
+  display: inline-block;
+}
+
+div.footer-container {
+  display: flex;
+}
+
+footer {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  flex-grow: 1;
+  width: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

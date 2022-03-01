@@ -7,7 +7,7 @@
 
   <div class="card-container">
     {% for item in collections[tag] | reverse %}
-      {% set subheading = item.data.date%}
+      {% set subheading = item.data.date %}
       {% include "partials/content_card.html" %}
     {% endfor %}
   </div>

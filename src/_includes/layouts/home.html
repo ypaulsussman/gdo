@@ -2,17 +2,28 @@
 
 {% block content %}
 
-  <h1>
-    {{ title }}
-  </h1>
+  <header>
+    <h1>
+      {{ title }}
+    </h1>
+  </header>
 
-  <div class="card-container">
-    {% for item in content_descriptors %}
-      {% set subheading = item.data.subhead %}
-      {% include "partials/content_card.html" %}
-    {% endfor %}
+  <div class="main-container">
+    <main>
+      <div class="card-container">
+        {% for item in content_descriptors %}
+          {% set subheading = item.data.subhead %}
+          {% include "partials/content_card.html" %}
+        {% endfor %}
+      </div>
+
+      <div class="footer-container">
+        <footer>
+          <p><a href="about">Details</a></p>
+          <p>...or go look at <a href="tags">Tags</a></p>
+        </footer>
+      </div>
+    </main>
   </div>
-
-  {{ content | safe }}
 
 {% endblock %}

@@ -25,5 +25,3 @@ content_descriptors:
       subhead: "(AKA 'Another CRUD Bites the Dust')"
       description: "Where I reflect on projects I undertake, technological or otherwise."
 ---
-
-..._or go look at [tags](tags)._

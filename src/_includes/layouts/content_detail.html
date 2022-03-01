@@ -2,12 +2,14 @@
 
 {% block content %}
 
-<h1>
-  {{ title }}
-</h1>
+  <h1>
+    {{ title }}
+  </h1>
 
-<p>{{date}}</p>
+  {% if date %}
+    <p>{{date}}</p>
+  {% endif %}
 
-{{ content | safe }}
+  {{ content | safe }}
 
 {% endblock %}

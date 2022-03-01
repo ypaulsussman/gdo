@@ -42,6 +42,10 @@
   margin-bottom: .5rem;
 }
 
+.card h2 a {
+  text-decoration: none;
+}
+
 .card h2.categories {
   margin-top: 2rem;
   margin-bottom: 1.5rem;

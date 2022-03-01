@@ -3,7 +3,7 @@ title: "What I Read"
 layout: 'layouts/content_list.html'
 pagination:
   data: collections.whatIRead
-  size: 12
+  size: 24
 permalink: 'wir{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber }}{% endif %}/'
 ---
 
