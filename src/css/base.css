@@ -1,4 +1,5 @@
 @import "home.css";
+@import "content_list.css";
 @import "content_card.css";
 
 :root {
@@ -78,5 +79,7 @@ a:active {
 header {
   display: flex;
   justify-content: center;
-  margin-top: 1.5rem;
+  padding-top: 1.5rem;
 }
+
+/* Aim to support: 480px, 768px, 1024px, and 1280px */

@@ -7,14 +7,23 @@
     </h1>
   </header>
 
-  {{ content | safe }}
-
   <div class="card-container">
     {% for item in pagination.items | reverse %}
       {% set subheading = item.data.date%}
       {% include "partials/content_card.html" %}
     {% endfor %}
   </div>
-  
+
+  <details>
+    <summary>About</summary>
+    <div class="about-content-list-border"> 
+      <div class="about-content-list-wrapper">
+        <div class="about-content-list-column">
+          {{ content | safe }}
+        </div>
+      </div>
+    </div>
+  </details>
+
   {% include "partials/pagination.html" %}
 {% endblock %}

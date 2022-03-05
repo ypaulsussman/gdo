@@ -1,0 +1,48 @@
+details {
+  position: absolute;
+  /* 1.5rem for <header> margin; .75rem for half of <header> line-height */
+  top: 2.25rem;
+  left: 1rem;
+  z-index: 2;
+}
+
+details .about-content-list-border {
+  background-color: var(--ghost-white-complementary);
+  border-radius: 15px;
+  /* cheap centering via: 2x left-positioning on parent, plus a bit extra for the scrollbar */
+  width: calc(100vw - 2.25rem);
+  min-height: calc(100%);
+  box-shadow: 0 2.8px 2.2px rgba(28, 17, 10, 0.034),
+    0 6.7px 5.3px rgba(28, 17, 10, 0.048), 0 12.5px 10px rgba(28, 17, 10, 0.06),
+    0 22.3px 17.9px rgba(28, 17, 10, 0.072),
+    0 41.8px 33.4px rgba(28, 17, 10, 0.086), 0 100px 80px rgba(28, 17, 10, 0.12);
+}
+
+details .about-content-list-wrapper {
+  margin: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  details {
+    left: 2.25rem;
+  }
+
+  details .about-content-list-border {
+    /* see rationale above */
+    width: calc(100vw - 4.75rem);
+  }
+
+  details .about-content-list-wrapper {
+    margin: 2rem;
+  }
+
+  .about-content-list-column {
+    max-width: 60ch;
+  }
+}
+
+.about-content-list-column > * {
+  margin-bottom: 1rem;
+}
