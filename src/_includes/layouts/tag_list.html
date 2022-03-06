@@ -7,22 +7,15 @@
     </h1>
   </header>
 
-  <div>
-    <ul>
-      {% for tag in collections.tagList %}
-      <li>
-        {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
-        <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
+    <main class="tag-list-wrapper">
+      <ul>
+        {% for tag in collections.tagList %}
+        <li>
+          {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+          <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </main>
 
 {% endblock %}
-
-{# TODO:
-  - remove bullet from <li>
-  - flex-column, also with flex-wrap to make multiple columns
-  - set min-height (?)
-  - use align-content
- #}

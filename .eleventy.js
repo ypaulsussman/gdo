@@ -26,7 +26,7 @@ module.exports = (config) => {
       (item.data.tags || []).forEach(tag => tagSet.add(tag));
     });
 
-    return [...tagSet];
+    return [...tagSet].sort();
   });
 
   return {

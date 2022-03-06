@@ -1,7 +1,8 @@
 @import "home.css";
 @import "content_list.css";
 @import "content_card.css";
-@import url("content_detail.css");
+@import "content_detail.css";
+@import "tag_list.css";
 
 :root {
   /* --smoky-black: #1c110a; */

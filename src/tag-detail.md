@@ -9,5 +9,3 @@ eleventyComputed:
   title: Tagged “{{ tag }}”
 permalink: /tags/{{ tag | slug }}/
 ---
-
-suuuuup, using tag detail

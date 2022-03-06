@@ -1,0 +1,28 @@
+main.tag-list-wrapper {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 480px) {
+  main.tag-list-wrapper ul {
+    column-count: 2;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  main.tag-list-wrapper ul {
+    column-count: 3;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main.tag-list-wrapper ul {
+    column-count: 4;
+  }
+}
+
+main.tag-list-wrapper ul li {
+  list-style: none;
+  margin-bottom: 1.5rem;
+}
