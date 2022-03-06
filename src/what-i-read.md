@@ -15,7 +15,7 @@ Those notes go into a ~three-track pipeline:
 State 00: Dormant
 State 01a: Notetaking In Process
 State 01b: Extracted (Notes Completed)
-State 02: Transformed (Notes Revisited/Edited/Pruned)
+State 02: Transformed (Notes Revisited, Edited, Pruned)
 State 03: Loaded (Notes Added to SRS)
 State 04: Blogged
 ```

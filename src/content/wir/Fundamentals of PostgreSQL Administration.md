@@ -11,7 +11,9 @@ For the last three months, I've been spending nights and weekends on an employer
 
 On a farewell-review of my notes, I was surprised by how my sentiments bifurcated.
 
-My flashcards' prompts generally took two sentence formats: "_Describe how_ PostgreSQL _performs process_ `${foo}`," and "_Given constraints `${bar}`, how would_ you _achieve goal_ `${baz}` _within PostgreSQL?_"
+My flashcards' prompts generally took two sentence formats: 
+- "_Describe how_ PostgreSQL _performs process_ `${foo}`," and 
+- "_Given constraints `${bar}`, how would_ you _achieve goal_ `${baz}` _within PostgreSQL?_"
 
 Examples of the latter include:
 

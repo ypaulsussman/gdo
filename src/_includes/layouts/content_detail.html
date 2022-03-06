@@ -8,10 +8,14 @@
     </h1>
   </header>
 
-  {% if date %}
-    <p>{{date}}</p>
-  {% endif %}
+  <div class="content-wrapper">
+    <main>
+      {% if date %}
+        <p class="pub-date">{{date}}</p>
+      {% endif %}
 
-  {{ content | safe }}
+      {{ content | safe }}
+    <main>
+  </div>
 
 {% endblock %}

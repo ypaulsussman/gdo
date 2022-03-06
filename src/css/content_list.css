@@ -46,3 +46,11 @@ details .about-content-list-wrapper {
 .about-content-list-column > * {
   margin-bottom: 1rem;
 }
+
+@media screen and (max-width: 480px) {
+  .about-content-list-column {
+    max-width: 100%;
+    word-break: break-word;
+    hyphens: auto;
+  }
+}

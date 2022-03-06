@@ -1,6 +1,7 @@
 @import "home.css";
 @import "content_list.css";
 @import "content_card.css";
+@import url("content_detail.css");
 
 :root {
   /* --smoky-black: #1c110a; */
@@ -58,6 +59,10 @@ li {
   color: var(--raisin-black);
   overflow-wrap: break-word;
   hyphens: auto;
+}
+
+h1 {
+  text-align: center;
 }
 
 a {

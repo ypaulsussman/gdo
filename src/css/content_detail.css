@@ -1,0 +1,28 @@
+div.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+
+@media screen and (max-width: 768px) {
+  div.content-wrapper {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+div.content-wrapper main {
+  margin-top: 1.5rem;
+  max-width: 60ch;
+}
+
+div.content-wrapper main > *, div.content-wrapper main li {
+  margin-bottom: 1rem;
+}
+
+div.content-wrapper main .pub-date {
+  color: var(--quick-silver);
+  font-style: italic;
+  margin-bottom: .75rem;
+}
