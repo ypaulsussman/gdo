@@ -43,7 +43,7 @@ The complementary declarative-knowledge learnings, however, fundamentally rework
 
 I'm reminded of the progressive knowledge-organization models that Frederick Reif depicted in his 1994 Millikan lecture:
 
-![Reif's models of knowledge-organization, 1994 Millikan lecture](/media/reif_millikan_1994.png)
+![Reif's models of knowledge-organization, 1994 Millikan lecture](/images/reif_millikan_1994.png)
 
 In that model, the humble declarative knowledge that I constructed over this PostgreSQL course appears to be the incipience of stage `(a)` above, and thus too (_if we accept the three as a sequence_) the prerequisite for those latter `(b)`, `(c)` refinements.
 

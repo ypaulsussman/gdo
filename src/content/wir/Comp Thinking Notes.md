@@ -45,7 +45,7 @@ Each time I reviewed those documents, I encountered pedagogical features to use 
 
 - In the teacher's guide, `Possible Path` diagrams at the start of each unit. Humans deduce visual patterns faster than they decode text (_and recall them better._) The chart's visual organization of exercises' sequence, pairs, and (_implicit_) estimated length appear designed for use by an overworked, under-pressure teacher:
 
-![Possible Path](/media/scratch_possible_path.png)
+![Possible Path](/images/scratch_possible_path.png)
 
 Each of these decisions shows a respect for the time, and the effort, of both teacher and student: that can't be overrated.
 

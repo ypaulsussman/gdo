@@ -64,7 +64,7 @@ My first instinct was to fall back on that trusty standby, [the DOK table](https
 
 The chart below (_admittedly, taken from_ [_a dated reassessment of task-based language teaching_](https://doi.org/10.1093/elt/58.4.319)) offers a more domain-oriented mental model for how to position (_and thus sequence_) exercises:
 
-![Continuum of Tasks' Focus](/media/continuum_focus_on_forms_to_focus_on_meaning_Littlewood_2004.png)
+![Continuum of Tasks' Focus](/images/continuum_focus_on_forms_to_focus_on_meaning_Littlewood_2004.png)
 
 The language practices falling in the `Structured communication` and `Authentic communication` fields are almost certainly beyond the (_current!_) capacity of mobile software to generate and monitor. Moreover, those fields' example tasks are significantly more time-consuming than an individual flashcard might be expected to proffer.
 
