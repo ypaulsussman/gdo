@@ -13,18 +13,40 @@ Prior to that I lived in Warsaw (_teaching at university_), rural Ukraine (_Peac
 
 And you probably shouldn’t.
 
-## Sick blog - how’d you make it?
+## What is this site, and how was it built?
 
-<!-- I didn’t! This is almost byte-for-byte the [Lumen](https://github.com/alxshelepenok/gatsby-starter-lumen) starter for [Gatsby.](https://www.gatsbyjs.org/features/) No, [seriously.](https://lumen.netlify.com/) 
+Like any good programmer, I've spent far more time on rewriting this site's code than on populating its content.
 
-The code is pretty much entirely the work of others: my adaptation has largely been to rip out the pieces that made it difficult for me to rapidly reason about. You know, little things like “the entire CMS admin view” and “static typechecking.” 
+[V1](https://github.com/ypaulsussman/learning-log) and [V2](https://github.com/ypaulsussman/yblog) had a couple things in common: 
+* they were both adapted from preexisting boilerplate repos; 
+* they were both built on top of [GatsbyJS](https://www.gatsbyjs.com/use-cases/developer/), and
+* they were each intended as a traditional blog, a container of polished public displays of what I'd been learning and doing.
 
-(_That’s right, to be clear: my personal addition to this codebase has been purely to make it **worse**. But... faster to work with!_) -->
+[This site](https://github.com/ypaulsussman/gdo) is none of those. It's mine from the `npm init -y` up, and builds using [Eleventy](https://www.11ty.dev/docs/).
 
-## So why a blog, though?
+Perhaps most importantly, it's underpinned by a [slightly different philosophy](https://notes.andymatuschak.org/Work_with_the_garage_door_up). 
 
-<!-- Eh, I should work harder to keep my brain sharp. One way to do that, I hear, is to translate your thinking into writing, and then reexamine both.
+I no longer aim to leverage the desire not to be embarrassed by slipshod work and presentation (_though nothing wrong with that practice! Historically, though, it motivates me... not to write a perfect blog post, but rather to spend 3 hours reading others'._)
 
-And a good way to do _that,_ I also hear, is to maintain a public collection of those writings: one that embarrasses you into perpetual drafting and revision.
+Any content from before 2022, then? Earnest strivings to carve, file, and trim the mess in my skull down into blog posts, into cohesive mini-essays.
 
-Ta da! -->
+Any content from 2022 or after? That's me doing my best to work with the garage door open. 
+
+I'm not sure, yet, whether they'll meet the ~criteria of [evergreen notes](https://notes.andymatuschak.org/Evergreen_notes) - but I aim to make the new content much rougher, more provisional, and more associative than my prior writings.
+
+## Why did you spend time building this, and what are next steps?
+
+I _like_ spending my evenings and weekends reading about [teaching, thinking, language, learning, technology]. And I like thinking about what I read. Sometimes I even like doing things based on those thoughts!
+
+But how to know any of it's _good?_ 
+
+My plan is to: 
+- add content to this site as promiscuously as if it were private (_it's non-SEO'd to the point it might as well be!_), then
+- mercilessly rework and update that content over the passage of time, all the while
+- having a readily-available public URL to share, conveniently, when I'd like someone's input.
+
+As for next steps: currently, I can't imagine any changes to the codebase beyond
+1. adding content and 
+2. bumping dependencies... 
+
+...but I'm sure I'm overlooking something. And that's kind of the fun of it, no? 
