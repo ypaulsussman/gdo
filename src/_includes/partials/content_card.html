@@ -1,6 +1,6 @@
 <div class="card">
   <h2 class="{{ item.page_style }}">
-    <a href="{{ item.url }}">{{ item.data.title }}</a>
+    <a href="{{ item.url | url }}">{{ item.data.title }}</a>
   </h2>
 
   <p class="subheading {{ item.page_style }}">{{subheading}}</p>

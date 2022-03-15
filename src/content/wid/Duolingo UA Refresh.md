@@ -1,5 +1,5 @@
 ---
-title: "Things I'd Forgotten about Ukrainian"
+title: "Things I Forgot about Ukrainian"
 date: "2022-03-09"
 tags: ["Language Learning", "Learning", "Ukrainian"]
 description: "Aspects (heh) of the language that Duolingo had reminded me of"
@@ -31,5 +31,56 @@ My plan is to return to them, after completion, to order and schematize them by 
 ## Food 1 and 2
 - "_for breakfast_" (or, in the case of beverages, "_at breakfast_") takes the preposition **на** сніданок (likewise обід, вечеря, десерт)
 
+- Яйця is neuter; вечеря (and картопля and цибуля!) is feminine
+
+- Яблуко, not Яблоко
+
+- коштувати дорого (or дешево), not коштувати багато
+
+- Idea: картопля is ~kind of a non-count noun 
+  - i.e. "_How much do these potatoes cost?_" would be "Скільки коштує ця картопля?", not "...ці картоплї?"
+  - Could this be an example to help Ukrainian students (when learning English) grasp the indefinite article?
+
 ## Cafe
 - "_to reserve a table_" is замовити столик
+
+- It's declined as картоплею (not "_картоплією_" or whatever you thought it was beforehand)
+
+- Ти їси, not "_їсиш_"
+
+## Present 1
+
+- Зустріч is feminine; so is подорож
+
+- An old false friend: "_magazine_" is журнал
+
+## Places
+
+- **На** вокзалі, **на** пошті, **на** кухні
+
+- у аеропорт**у**, у кінотеатр**у**; у парк**у**, у банк**у**
+
+## Clothes
+- Одяг (_like картопля_) is ~non-count (or, at least, effectively always singular when we would use "_clothes_"; akin to e.g. "_garb_"?)
+
+## Colors
+- синій, синя, синє - it takes a soft declension (but, of course, сині шкарпетки)
+
+## Past Tense
+- Хтось роб**ив**, but щось нов**е**
+
+## Present
+- As with одяг, so with посуд - rarely (never?) takes the plural
+
+## Shopping
+- Поміряти is not the imperfective of померти :)
+
+- However, розмір is the size that you'll try on (помір, apparently, is casualties from the plague?! #topical )
+
+## Calendar
+- Місяць is masculine
+
+
+
+
+http://sum.in.ua/
