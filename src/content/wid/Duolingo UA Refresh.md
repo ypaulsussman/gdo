@@ -77,10 +77,42 @@ My plan is to return to them, after completion, to order and schematize them by 
 
 - However, розмір is the size that you'll try on (помір, apparently, is casualties from the plague?! #topical )
 
-## Calendar
+## Calendar 1
 - Місяць is masculine
 
+## Calendar 2
+- Вранц**і** (and ввечер**і**, вноч**і**) but вдень (for "_during the day_", "_in the afternoon_")
 
+- у + accusative case for "_on_ (_day of the week_)" (not на)
+
+- вліт**ку** and взим**ку**, but восени and навесні
+
+## Transport
+
+- "_by ${transport}_" is not instrumental but rather на тролейбусі, на маршрутці, на машині, на автобусі, на літаку (save for поїздом... which apparently can _also_ be на поїзді)
+
+- таксі is neuter (like e.g. хобі)
+
+- Pronunciation: 
+  - доро**ГИЙ**
+  - **Ї**дете
+  - **КО**штує
+  - про**ЇЗД**
+  - **ДО**відка
+
+## Traveling
+
+- довідка is "_information desk_"
+
+- Каса is "_ticket office_"
+
+- рейс is "_flight_"
+
+- провідник is "_conductor_"
+
+## Pronouns: Dative
+
+- жаркий and гарячий are not the same thing :)
 
 
 http://sum.in.ua/
