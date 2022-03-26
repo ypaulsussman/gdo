@@ -181,6 +181,38 @@ My plan is to return to them, after completion, to order and schematize them by 
 
 - "_${bachelor's} degree_" inverts syntax: диплом бакалавра, диплом магістра
 
+## Business
+- "_business card_" is візитка
+
+- "_governmental organization_" is урядова огранізація
+
+- "_to schedule a meeting_" is призначити зустріч
+
+- "_staff_" is персонал (always singular)
+
+- "_interview_" is neuter: наше інтервʼю
+
+- "_work experience_" is досвід роботи
+
+## Verb Aspect
+- зʼїсти (perfective of "_to eat_") takes an apostrophe
+
+## Spiritual
+- "_Christians_" (n) is християнин, християни
+
+- "_Christian_" (adj) християнський
+
+- "_Mosque_" is feminine: нова мечеть
+
+- "_Jew(ish)_" is apparently also іудеї (_Is_ Єврей _still OK? It's the title for the UA Wikipedia page, so presumably yes!_)
+
+- "_symbol_" is somehow символ (not симбол); unclear how you missed that for ~2 decades :)
+
+- "_faith_" is віра
+
+- душа is "_soul_," but "_spirit_" is just дух (e.g. сильний дух for "_strong spirit_")
+
+
 
 
 ---
